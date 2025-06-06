@@ -7,7 +7,7 @@ https://github.com/datablist/sample-csv-files?tab=readme-ov-file
 
 Or use example with only 25 rows:
 ```
-cp customers.example.csv
+cp customers.example.csv customers.csv
 ```
 
 Now initialise DuckDB with DuckLake extension creating a table from `./customers.csv`. Warning this command deletes `./db` if you run it again:
