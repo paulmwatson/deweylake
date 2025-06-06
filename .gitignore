@@ -1,0 +1,5 @@
+*.csv
+!customers.example.csv
+.DS_Store
+*.db
+metadata.ducklake*

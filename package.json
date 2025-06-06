@@ -1,0 +1,13 @@
+{
+  "name": "deweylake",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Paul Watson",
+    "email": "github.com@paulmwatson.com"
+  },
+  "scripts": {
+    "db:init": "rm -fr db/ && mkdir db && duckdb db/database.db -init sql/init.sql",
+    "db:ui": "duckdb db/database.db"
+  }
+}
